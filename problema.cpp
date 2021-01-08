@@ -104,8 +104,7 @@ int main()
 	Citire(stareInitiala, n);
 	if (determinareSolvabilitate(stareInitiala, n))
 	{
-		/*std::cout << A_star(stareInitiala, t, 4);*/
-		std::cout << cost_permutare(stareInitiala, t, 1, 4);
+		std::cout << A_star(stareInitiala, t, 4);
 	}
 	else
 	{
